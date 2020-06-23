@@ -1,0 +1,2 @@
+(this["webpackJsonpcra-demo"]=this["webpackJsonpcra-demo"]||[]).push([[0],{3:function(e,n,t){e.exports=t(8)},8:function(e,n,t){"use strict";t.r(n);var a=t(0),c=t.n(a),r=t(2);var o=function(){return c.a.createElement("div",{className:"App"},c.a.createElement("h1",null,"Polishchuk Viacheslav"))};t.n(r).a.render(c.a.createElement(o,null),document.getElementById("root"))}},[[3,1,2]]]);
+//# sourceMappingURL=main.d9cfd47f.chunk.js.map
