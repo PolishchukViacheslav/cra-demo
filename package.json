@@ -19,7 +19,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "lint:css": "stylelint ./src",
-    "lint": "concurrently \"npm run lint:css\""
+    "lint:js": "eslint ./src",
+    "lint": "concurrently \"npm run lint:css\" \"npm run lint:js\""
   },
   "eslintConfig": {
     "extends": "react-app"
