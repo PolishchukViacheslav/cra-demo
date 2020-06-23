@@ -18,9 +18,9 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "lint:js": "eslint ./src",
     "lint:css": "stylelint ./src",
-    "lint": "concurrently \"npm run lint:js\" \"npm run lint:css\""
+    "lint:js": "eslint ./src",
+    "lint": "concurrently \"npm run lint:css\" \"npm run lint:js\""
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -41,7 +41,6 @@
     "@mate-academy/eslint-config-react": "0.0.5",
     "@mate-academy/stylelint-config": "0.0.9",
     "concurrently": "^5.2.0",
-    "eslint": "^7.3.1",
     "eslint-plugin-node": "^11.1.0",
     "gh-pages": "^3.1.0",
     "husky": "^4.2.5",
